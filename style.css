@@ -1,8 +1,13 @@
 body {
-  background-color: #444444;
+  background: url("https://raw.githubusercontent.com/kevinfiddler/kevinfiddler.github.io/main/space_background.jpg") no-repeat;
   color: #dddddd;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%;
+}
+
+.name {
+  text-align: center;
+  text-transform: uppercase; 
 }
 
 .exp-header {
@@ -10,15 +15,47 @@ body {
   text-transform: uppercase; 
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0,0.1)
+  background-color: rgba(0,0,0,0.1);
+}
+
+.education-head {
+  text-align: center;
+  text-transform: uppercase; 
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.cert-head {
+  text-align: center;
+  text-transform: uppercase; 
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background-color: rgba(0,0,0,0.1);
 }
 
 .photo {
-  width: 10%;
-}
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 400px;
+  height: 600px;
+  background: url("https://github.com/kevinfiddler/kevinfiddler.github.io/blob/main/Hurling_Picture2.jpg?raw=true") no-repeat; 
+  background-position: center center;
+    }
+
 
 .photo:active {
-   transform: rotate(180deg);
-   -webkit-transform: rotate(180deg);
-   -ms-transform: rotate(180deg);
+        background: url("https://github.com/kevinfiddler/kevinfiddler.github.io/blob/main/Hurling_Pic_3.jpeg?raw=true") no-repeat;
+    }
+
+
+.education {
+  text-align: center;
+}
+
+a {
+  color: #00008B;
+  background-color: transparent;
+  text-decoration: none;
 }
