@@ -17,6 +17,9 @@ body {
   text-transform: uppercase; 
   border-top: 1px solid #707070;
   border-bottom: 1px solid #707070;
+  border-left: 1px solid #707070;
+  border-right: 1px solid #707070;
+  border-radius: 15px;
   background-color: rgb(220,220,220,0.2)
 }
 
@@ -26,6 +29,9 @@ body {
   text-transform: uppercase; 
   border-top: 1px solid #707070;
   border-bottom: 1px solid #707070;
+  border-left: 1px solid #707070;
+  border-right: 1px solid #707070;
+  border-radius: 15px;
   background-color: rgb(220,220,220,0.2)
 }
 
@@ -34,6 +40,9 @@ body {
   text-transform: uppercase; 
   border-top: 1px solid #707070;
   border-bottom: 1px solid #707070;
+  border-left: 1px solid #707070;
+  border-right: 1px solid #707070;
+  border-radius: 15px;
   background-color: rgb(220,220,220,0.2)
 }
 
