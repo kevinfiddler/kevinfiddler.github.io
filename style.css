@@ -23,7 +23,6 @@ body {
   background-color: rgb(220,220,220,0.2)
 }
 
-
 .education-head {
   text-align: center;
   text-transform: uppercase; 
@@ -56,14 +55,16 @@ body {
   background-position: center center;
     }
 
-
 .photo:active {
         background: url("https://github.com/kevinfiddler/kevinfiddler.github.io/blob/main/Hurling_Pic_3.jpeg?raw=true") no-repeat;
     }
 
-
 .education {
   text-align: center;
+}
+
+ul {
+ list-style-type: circle;
 }
 
 a {
